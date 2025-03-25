@@ -192,12 +192,12 @@ endmodule
 
 
 module load (
-				input wire clk,rst,
-				input wire [11:0] address_in,
-				inout wire [7:0] data_cache,
-				input wire start_load,
-				input logic gnt,
-				input wire hit,
+				input clk,rst,
+				input [11:0] address_in,
+				inout [7:0] data_cache,
+				input start_load,
+				input gnt,
+				input hit,
 				output reg end_load,
 				output reg valid_load,
 				output reg [11:0] address_cache_load,
@@ -236,12 +236,14 @@ always_comb
 					end
 		
 		SEND_ADDR_LOAD : begin
+							complete = 0;
 							send_addr = 1;
 							valid_load = 1;
 							
 						end
 		
 		WAIT_LOAD : begin
+						complete = 0;
 						valid_load = 0;
 					end
 					
@@ -275,7 +277,9 @@ always_comb
 						if(gnt) next_state = FINISH_LOAD;
 					end
 					
-		FINISH_LOAD : next_state = IDLE_LOAD;
+		FINISH_LOAD : begin
+						if(start_load) next_state = IDLE_LOAD;
+					end
 		
 		endcase
 	end
@@ -299,10 +303,11 @@ module store (
 				input wire start_store,
 				input wire [7:0] data_in,
 				input wire hit,
+				input wire gnt,
 				output reg [11:0] address_cache_store,
 				inout wire [7:0] data_cache,
 				output reg [15:0] result_store,
-				output reg gnt,valid_store,
+				output reg valid_store,
 				output reg end_store
 			);
 
@@ -337,6 +342,7 @@ always_comb
 					end
 		
 		SEND_ADDR_STORE : begin
+							complete = 0;
 							send_addr = 1;
 							send_data = 1;
 							valid_store = 1;
@@ -344,6 +350,7 @@ always_comb
 						end
 		
 		WAIT_STORE : begin
+						complete = 0;
 						valid_store = 0;
 					end
 					
@@ -379,7 +386,9 @@ always_comb
 						if(gnt) next_state = FINISH_STORE;
 					end
 					
-		FINISH_STORE : next_state = IDLE_STORE;
+		FINISH_STORE : begin
+						if(start_store) next_state = IDLE_STORE;
+					end
 		
 		endcase
 	end

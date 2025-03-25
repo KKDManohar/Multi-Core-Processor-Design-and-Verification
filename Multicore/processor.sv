@@ -25,7 +25,7 @@ module multi_processor(
 	
 	logic valid_load, valid_store;
 	
-	logic [15:0] result_alu, result_load, result_store;
+	wire [15:0] result_alu, result_load, result_store;
 	
 	logic [11:0] address_cache_load, address_cache_store;
 	
@@ -52,11 +52,30 @@ module multi_processor(
 	
 	
 	assign valid = valid_load || valid_store;
-	
-	assign result = result_alu | result_load | result_store;
-	
+
 	assign address_cache = address_cache_load | address_cache_store;
 	
-	assign end_op = end_load | end_store | end_alu;
-	
+	always_comb begin
+		if(op_sel == LOAD) begin
+			result = result_load;
+			end_op = end_load;
+		end
+		
+		else if(op_sel == STORE) begin
+			result = result_store;
+			end_op = end_store;
+		end
+		
+		else if(!(op_sel == LOAD) && !(op_sel == STORE)) begin
+			result = result_alu;
+			end_op = end_alu;
+		end
+		
+		else begin
+			end_op = 0;
+			result = 0;
+		end
+		
+	end
+		
 endmodule
