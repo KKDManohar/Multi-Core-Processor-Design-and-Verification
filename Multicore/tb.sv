@@ -22,20 +22,12 @@ initial begin
 	A = 8'hFF; 
 	B = 8'hFE; 
 	start_op = 1; 
-<<<<<<< HEAD
-	op_sel = RB3;
-	$display("result = %0b, end_op = %0b at time t = %0t",result,end_op,$time);
-	
-	
-	#50; $finish;	
-=======
 	address_in = 12'h011;
 	op_sel = LOAD;
 	$display("result = %0b, end_op = %0b at time t = %0t",result,end_op,$time);
 	
 	
 	#500; $finish;	
->>>>>>> c2e9ec6 (CacheDone)
 	end
 	
 initial begin

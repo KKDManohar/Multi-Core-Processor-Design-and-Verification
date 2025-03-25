@@ -1,9 +1,5 @@
 $date
-<<<<<<< HEAD
-	Sun Feb 16 20:23:33 2025
-=======
 	Sat Feb 22 17:33:50 2025
->>>>>>> c2e9ec6 (CacheDone)
 $end
 $version
 	QuestaSim Version 2024.2
@@ -70,21 +66,6 @@ $var wire 1 T data_in [1] $end
 $var wire 1 U data_in [0] $end
 $var reg 1 V end_op $end
 $var reg 16 W result [15:0] $end
-<<<<<<< HEAD
-$var reg 1 X hit $end
-$var reg 1 Y gnt $end
-$var reg 1 Z valid $end
-$var reg 2 [ rw [1:0] $end
-$var reg 12 \ address_cache [11:0] $end
-$var wire 1 ] data_cache [7] $end
-$var wire 1 ^ data_cache [6] $end
-$var wire 1 _ data_cache [5] $end
-$var wire 1 ` data_cache [4] $end
-$var wire 1 a data_cache [3] $end
-$var wire 1 b data_cache [2] $end
-$var wire 1 c data_cache [1] $end
-$var wire 1 d data_cache [0] $end
-=======
 $var wire 1 X hit $end
 $var wire 1 Y gnt $end
 $var wire 1 Z valid $end
@@ -112,7 +93,6 @@ $var wire 1 o data_cache [3] $end
 $var wire 1 p data_cache [2] $end
 $var wire 1 q data_cache [1] $end
 $var wire 1 r data_cache [0] $end
->>>>>>> c2e9ec6 (CacheDone)
 
 $scope module pro1 $end
 $var wire 1 + clk $end
@@ -158,36 +138,6 @@ $var wire 1 R data_in [3] $end
 $var wire 1 S data_in [2] $end
 $var wire 1 T data_in [1] $end
 $var wire 1 U data_in [0] $end
-<<<<<<< HEAD
-$var wire 1 e hit $end
-$var wire 1 f gnt $end
-$var wire 1 ] data_cache [7] $end
-$var wire 1 ^ data_cache [6] $end
-$var wire 1 _ data_cache [5] $end
-$var wire 1 ` data_cache [4] $end
-$var wire 1 a data_cache [3] $end
-$var wire 1 b data_cache [2] $end
-$var wire 1 c data_cache [1] $end
-$var wire 1 d data_cache [0] $end
-$var reg 16 g result [15:0] $end
-$var reg 2 h rw [1:0] $end
-$var reg 1 i end_op $end
-$var reg 1 j valid $end
-$var reg 12 k address_cache [11:0] $end
-$var reg 1 l start_load $end
-$var reg 1 m end_load $end
-$var reg 1 n start_store $end
-$var reg 1 o end_store $end
-$var reg 1 p start_alu $end
-$var reg 1 q end_alu $end
-$var reg 1 r valid_load $end
-$var reg 1 s valid_store $end
-$var reg 16 t result_alu [15:0] $end
-$var reg 16 u result_load [15:0] $end
-$var reg 16 v result_store [15:0] $end
-$var reg 12 w address_cache_load [11:0] $end
-$var reg 12 x address_cache_store [11:0] $end
-=======
 $var wire 1 X hit $end
 $var wire 1 Y gnt $end
 $var wire 1 k data_cache [7] $end
@@ -216,7 +166,6 @@ $var reg 16 #! result_load [15:0] $end
 $var reg 16 $! result_store [15:0] $end
 $var reg 12 %! address_cache_load [11:0] $end
 $var reg 12 &! address_cache_store [11:0] $end
->>>>>>> c2e9ec6 (CacheDone)
 
 $scope module alu1 $end
 $var wire 1 + clk $end
@@ -237,30 +186,11 @@ $var wire 1 9 B [3] $end
 $var wire 1 : B [2] $end
 $var wire 1 ; B [1] $end
 $var wire 1 < B [0] $end
-<<<<<<< HEAD
-$var wire 1 y start_alu $end
-=======
 $var wire 1 '! start_alu $end
->>>>>>> c2e9ec6 (CacheDone)
 $var wire 1 > op_sel [3] $end
 $var wire 1 ? op_sel [2] $end
 $var wire 1 @ op_sel [1] $end
 $var wire 1 A op_sel [0] $end
-<<<<<<< HEAD
-$var reg 16 z result_alu [15:0] $end
-$var reg 1 { end_alu $end
-$var reg 16 | mul_temp1 [15:0] $end
-$var reg 16 } mul_temp2 [15:0] $end
-$var reg 16 ~ sf1_temp1 [15:0] $end
-$var reg 16 !! sf1_temp2 [15:0] $end
-$var reg 16 "! sf2_temp1 [15:0] $end
-$var reg 16 #! sf2_temp2 [15:0] $end
-$var reg 16 $! sf3_temp1 [15:0] $end
-$var reg 16 %! sf3_temp2 [15:0] $end
-$var reg 16 &! sf4_temp1 [15:0] $end
-$var reg 16 '! sf4_temp2 [15:0] $end
-$var integer 32 (! counter $end
-=======
 $var reg 16 (! result_alu [15:0] $end
 $var reg 1 )! end_alu $end
 $var reg 16 *! mul_temp1 [15:0] $end
@@ -274,7 +204,6 @@ $var reg 16 1! sf3_temp2 [15:0] $end
 $var reg 16 2! sf4_temp1 [15:0] $end
 $var reg 16 3! sf4_temp2 [15:0] $end
 $var integer 32 4! counter $end
->>>>>>> c2e9ec6 (CacheDone)
 $upscope $end
 
 $scope module load2 $end
@@ -292,27 +221,6 @@ $var wire 1 J address_in [3] $end
 $var wire 1 K address_in [2] $end
 $var wire 1 L address_in [1] $end
 $var wire 1 M address_in [0] $end
-<<<<<<< HEAD
-$var wire 1 ] data_cache [7] $end
-$var wire 1 ^ data_cache [6] $end
-$var wire 1 _ data_cache [5] $end
-$var wire 1 ` data_cache [4] $end
-$var wire 1 a data_cache [3] $end
-$var wire 1 b data_cache [2] $end
-$var wire 1 c data_cache [1] $end
-$var wire 1 d data_cache [0] $end
-$var wire 1 )! start_load $end
-$var wire 1 f gnt $end
-$var wire 1 e hit $end
-$var reg 1 *! end_load $end
-$var reg 1 +! valid_load $end
-$var reg 12 ,! address_cache_load [11:0] $end
-$var reg 16 -! result_load [15:0] $end
-$var reg 1 .! complete $end
-$var reg 1 /! send_addr $end
-$var reg 2 0! state [1:0] $end
-$var reg 2 1! next_state [1:0] $end
-=======
 $var wire 1 k data_cache [7] $end
 $var wire 1 l data_cache [6] $end
 $var wire 1 m data_cache [5] $end
@@ -332,7 +240,6 @@ $var reg 1 :! complete $end
 $var reg 1 ;! send_addr $end
 $var reg 2 <! state [1:0] $end
 $var reg 2 =! next_state [1:0] $end
->>>>>>> c2e9ec6 (CacheDone)
 $upscope $end
 
 $scope module store3 $end
@@ -350,11 +257,7 @@ $var wire 1 J address_in [3] $end
 $var wire 1 K address_in [2] $end
 $var wire 1 L address_in [1] $end
 $var wire 1 M address_in [0] $end
-<<<<<<< HEAD
-$var wire 1 2! start_store $end
-=======
 $var wire 1 >! start_store $end
->>>>>>> c2e9ec6 (CacheDone)
 $var wire 1 N data_in [7] $end
 $var wire 1 O data_in [6] $end
 $var wire 1 P data_in [5] $end
@@ -363,27 +266,6 @@ $var wire 1 R data_in [3] $end
 $var wire 1 S data_in [2] $end
 $var wire 1 T data_in [1] $end
 $var wire 1 U data_in [0] $end
-<<<<<<< HEAD
-$var wire 1 e hit $end
-$var reg 12 3! address_cache_store [11:0] $end
-$var wire 1 ] data_cache [7] $end
-$var wire 1 ^ data_cache [6] $end
-$var wire 1 _ data_cache [5] $end
-$var wire 1 ` data_cache [4] $end
-$var wire 1 a data_cache [3] $end
-$var wire 1 b data_cache [2] $end
-$var wire 1 c data_cache [1] $end
-$var wire 1 d data_cache [0] $end
-$var reg 16 4! result_store [15:0] $end
-$var reg 1 5! gnt $end
-$var reg 1 6! valid_store $end
-$var reg 1 7! end_store $end
-$var reg 1 8! complete $end
-$var reg 1 9! send_addr $end
-$var reg 1 :! send_data $end
-$var reg 2 ;! state [1:0] $end
-$var reg 2 <! next_state [1:0] $end
-=======
 $var wire 1 X hit $end
 $var reg 12 ?! address_cache_store [11:0] $end
 $var wire 1 k data_cache [7] $end
@@ -403,44 +285,10 @@ $var reg 1 E! send_addr $end
 $var reg 1 F! send_data $end
 $var reg 2 G! state [1:0] $end
 $var reg 2 H! next_state [1:0] $end
->>>>>>> c2e9ec6 (CacheDone)
 $upscope $end
 $upscope $end
 
 $scope module cache2 $end
-<<<<<<< HEAD
-$var parameter 32 =! cache_index $end
-$var wire 1 + clk $end
-$var wire 1 , rst $end
-$var wire 1 >! valid $end
-$var wire 1 ] data_cache [7] $end
-$var wire 1 ^ data_cache [6] $end
-$var wire 1 _ data_cache [5] $end
-$var wire 1 ` data_cache [4] $end
-$var wire 1 a data_cache [3] $end
-$var wire 1 b data_cache [2] $end
-$var wire 1 c data_cache [1] $end
-$var wire 1 d data_cache [0] $end
-$var wire 1 ?! address_cache [11] $end
-$var wire 1 @! address_cache [10] $end
-$var wire 1 A! address_cache [9] $end
-$var wire 1 B! address_cache [8] $end
-$var wire 1 C! address_cache [7] $end
-$var wire 1 D! address_cache [6] $end
-$var wire 1 E! address_cache [5] $end
-$var wire 1 F! address_cache [4] $end
-$var wire 1 G! address_cache [3] $end
-$var wire 1 H! address_cache [2] $end
-$var wire 1 I! address_cache [1] $end
-$var wire 1 J! address_cache [0] $end
-$var wire 1 K! rw [1] $end
-$var wire 1 L! rw [0] $end
-$var reg 1 M! hit $end
-$var reg 1 N! gnt $end
-$var reg 12 O! temp_addr [11:0] $end
-$var reg 1 P! temp_hit $end
-$var integer 32 Q! file_handle $end
-=======
 $var wire 1 + clk $end
 $var wire 1 , rst $end
 $var wire 1 \ rw $end
@@ -485,7 +333,6 @@ $var wire 1 + clk $end
 $var wire 1 , rst $end
 $var wire 1 i req_arb $end
 $var reg 1 U! gnt_arb $end
->>>>>>> c2e9ec6 (CacheDone)
 $upscope $end
 $upscope $end
 $upscope $end
@@ -522,37 +369,6 @@ bx (
 b0 *
 0V
 b0 W
-<<<<<<< HEAD
-0X
-0Y
-0Z
-b0 [
-b0 \
-b0 g
-b0 h
-0i
-0j
-b0 k
-xl
-0m
-xn
-0o
-xp
-0q
-0r
-0s
-b0 t
-b0 u
-b0 v
-b0 w
-b0 x
-b0 z
-0{
-b0 |
-b0 }
-b0 ~
-b0 !!
-=======
 b0 s
 xt
 0u
@@ -566,48 +382,11 @@ x|
 0}
 0~
 0!!
->>>>>>> c2e9ec6 (CacheDone)
 b0 "!
 b0 #!
 b0 $!
 b0 %!
 b0 &!
-<<<<<<< HEAD
-b0 '!
-0*!
-0+!
-b0 ,!
-b0 -!
-0.!
-0/!
-b0 0!
-b0 1!
-b0 3!
-b0 4!
-x5!
-06!
-07!
-08!
-09!
-x:!
-b0 ;!
-b0 <!
-0M!
-0N!
-bx O!
-0P!
-b111 =!
-b0 (!
-b101110011101000111100001110100 Q!
-xd
-xc
-xb
-xa
-x`
-x_
-x^
-x]
-=======
 b0 (!
 0)!
 b0 *!
@@ -679,7 +458,6 @@ xn
 xm
 xl
 xk
->>>>>>> c2e9ec6 (CacheDone)
 xU
 xT
 xS
@@ -723,32 +501,9 @@ x.
 x-
 1,
 1+
-<<<<<<< HEAD
-0L!
-0K!
-0J!
-0I!
-0H!
-0G!
-0F!
-0E!
-0D!
-0C!
-0B!
-0A!
-0@!
-0?!
-0>!
-xf
-0e
-x2!
-x)!
-xy
-=======
 x>!
 x5!
 x'!
->>>>>>> c2e9ec6 (CacheDone)
 $end
 #5
 0!
@@ -764,21 +519,12 @@ $end
 b11111111 #
 b11111110 $
 1%
-<<<<<<< HEAD
-b1111 &
-=======
 b10001 '
 b101 &
->>>>>>> c2e9ec6 (CacheDone)
 1!
 0,
 1=
 1A
-<<<<<<< HEAD
-1@
-1?
-1>
-=======
 0@
 1?
 0>
@@ -794,7 +540,6 @@ b101 &
 0D
 0C
 0B
->>>>>>> c2e9ec6 (CacheDone)
 0<
 1;
 1:
@@ -811,27 +556,6 @@ b101 &
 1/
 1.
 1-
-<<<<<<< HEAD
-0l
-0n
-1p
-1y
-1+
-0)!
-02!
-b1111111111111110 z
-1{
-1P!
-0P!
-1q
-b1111111111111110 t
-b1111111111111110 g
-1i
-1V
-b1111111111111110 W
-b1111111111111110 *
-1)
-=======
 1x
 0z
 0|
@@ -855,17 +579,12 @@ b10001 w
 1d
 1Z
 b1 T!
->>>>>>> c2e9ec6 (CacheDone)
 #25
 0!
 0+
 #30
 1!
 1+
-<<<<<<< HEAD
-1P!
-0P!
-=======
 b1 S!
 b10 <!
 07!
@@ -877,49 +596,31 @@ b10001 L!
 0Z
 b1 T!
 b10 T!
->>>>>>> c2e9ec6 (CacheDone)
 #35
 0!
 0+
 #40
 1!
 1+
-<<<<<<< HEAD
-1P!
-0P!
-=======
 b10 S!
 b100 T!
->>>>>>> c2e9ec6 (CacheDone)
 #45
 0!
 0+
 #50
 1!
 1+
-<<<<<<< HEAD
-1P!
-0P!
-=======
 b100 S!
 1R!
 b101 T!
 1K!
 1i
->>>>>>> c2e9ec6 (CacheDone)
 #55
 0!
 0+
 #60
 1!
 1+
-<<<<<<< HEAD
-1P!
-0P!
-#65
-0!
-0+
-=======
 1U!
 b101 S!
 1j
@@ -1212,4 +913,3 @@ bz L!
 #515
 0!
 0+
->>>>>>> c2e9ec6 (CacheDone)

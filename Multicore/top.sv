@@ -11,30 +11,20 @@ module top(
 			output logic [15:0] result
 			);
 			
-<<<<<<< HEAD
-	logic hit,gnt,valid;
-	logic [1:0] rw;
-	logic [11:0] address_cache;
-=======
 	wire hit,gnt,valid;
 	wire rw;
 	wire [11:0] address_cache;
 	
 	wire req_arb, gnt_arb;
->>>>>>> c2e9ec6 (CacheDone)
 	
 	wire [7:0] data_cache;
 	
 	multi_processor pro1 (.clk(clk),.rst(rst),.A(A),.B(B),.start_op(start_op),.op_sel(op_sel),.address_in(address_in),.data_in(data_in),.hit(hit),
 						.gnt(gnt),.data_cache(data_cache),.result(result),.rw(rw),.end_op(end_op),.valid(valid),.address_cache(address_cache));
 						
-<<<<<<< HEAD
-	cache cache2 (.clk(clk),.rst(rst),.valid(valid),.data_cache(data_cache),.address_cache(address_cache),.rw(rw),.hit(hit),.gnt(gnt));
-=======
 	cache cache2 (.clk(clk),.rst(rst),.valid(valid),.data_cache(data_cache),.address_cache(address_cache),.rw(rw),.hit(hit),.cpu_gnt(gnt),
 				  .gnt_arb(gnt_arb),.req_arb(req_arb));
 				  
 	arbiter arb3 (.clk(clk),.rst(rst),.req_arb(req_arb),.gnt_arb(gnt_arb));
->>>>>>> c2e9ec6 (CacheDone)
 				
 endmodule

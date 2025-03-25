@@ -10,11 +10,7 @@ module multi_processor(
 	input logic hit,gnt,
 	inout logic [7:0] data_cache,
 	output logic [15:0] result,
-<<<<<<< HEAD
-	output logic [1:0] rw,
-=======
 	output logic rw,
->>>>>>> c2e9ec6 (CacheDone)
 	output logic end_op,
 	output logic valid,
 	output logic [11:0] address_cache
@@ -38,31 +34,11 @@ module multi_processor(
 	assign start_alu = (start_op) && !(op_sel == LOAD) && !(op_sel == STORE);
 	
 	always_comb begin
-<<<<<<< HEAD
-		if(start_load && !start_store && !start_alu) begin
-			rw = 2'b10; 
-			//result_store = 0; 
-			//result_alu = 0; 
-		end
-		
-		else if(start_store && !start_load && !start_alu) begin
-			rw = 2'b01; 
-			//result_load = 0;
-			//result_alu = 0;
-		end
-		
-		else begin
-			rw = 2'b00;	
-			//result_load = 0;
-			//result_store = 0;
-		end
-=======
 		if(start_load && !start_alu && !start_store)
 			rw = 1;
 		
 		else if(start_store && !start_alu && !start_load)
 			rw = 0;
->>>>>>> c2e9ec6 (CacheDone)
 	end
 	
 	single_mult_op alu1 (.clk(clk),.rst(rst),.A(A),.B(B),.start_alu(start_alu),.op_sel(op_sel),.result_alu(result_alu),.end_alu(end_alu));
