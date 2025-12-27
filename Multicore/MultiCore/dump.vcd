@@ -1,0 +1,2150 @@
+$date
+	Wed Aug 13 15:13:13 2025
+$end
+$version
+	QuestaSim Version 2024.2
+$end
+$timescale
+	1ns
+$end
+
+$scope module tb_top $end
+$var reg 1 ! clk $end
+$var reg 1 " rst $end
+
+$scope module top1 $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var wire 1 % A [0] $end
+$var wire 1 & A [1] $end
+$var wire 1 ' A [2] $end
+$var wire 1 ( A [3] $end
+$var wire 1 ) A [4] $end
+$var wire 1 * A [5] $end
+$var wire 1 + A [6] $end
+$var wire 1 , A [7] $end
+$var wire 1 - A [8] $end
+$var wire 1 . A [9] $end
+$var wire 1 / A [10] $end
+$var wire 1 0 A [11] $end
+$var wire 1 1 A [12] $end
+$var wire 1 2 A [13] $end
+$var wire 1 3 A [14] $end
+$var wire 1 4 A [15] $end
+$var wire 1 5 A [16] $end
+$var wire 1 6 A [17] $end
+$var wire 1 7 A [18] $end
+$var wire 1 8 A [19] $end
+$var wire 1 9 A [20] $end
+$var wire 1 : A [21] $end
+$var wire 1 ; A [22] $end
+$var wire 1 < A [23] $end
+$var wire 1 = B [0] $end
+$var wire 1 > B [1] $end
+$var wire 1 ? B [2] $end
+$var wire 1 @ B [3] $end
+$var wire 1 A B [4] $end
+$var wire 1 B B [5] $end
+$var wire 1 C B [6] $end
+$var wire 1 D B [7] $end
+$var wire 1 E B [8] $end
+$var wire 1 F B [9] $end
+$var wire 1 G B [10] $end
+$var wire 1 H B [11] $end
+$var wire 1 I B [12] $end
+$var wire 1 J B [13] $end
+$var wire 1 K B [14] $end
+$var wire 1 L B [15] $end
+$var wire 1 M B [16] $end
+$var wire 1 N B [17] $end
+$var wire 1 O B [18] $end
+$var wire 1 P B [19] $end
+$var wire 1 Q B [20] $end
+$var wire 1 R B [21] $end
+$var wire 1 S B [22] $end
+$var wire 1 T B [23] $end
+$var wire 1 U start_op [0] $end
+$var wire 1 V start_op [1] $end
+$var wire 1 W start_op [2] $end
+$var wire 1 X address_in [0] $end
+$var wire 1 Y address_in [1] $end
+$var wire 1 Z address_in [2] $end
+$var wire 1 [ address_in [3] $end
+$var wire 1 \ address_in [4] $end
+$var wire 1 ] address_in [5] $end
+$var wire 1 ^ address_in [6] $end
+$var wire 1 _ address_in [7] $end
+$var wire 1 ` address_in [8] $end
+$var wire 1 a address_in [9] $end
+$var wire 1 b address_in [10] $end
+$var wire 1 c address_in [11] $end
+$var wire 1 d address_in [12] $end
+$var wire 1 e address_in [13] $end
+$var wire 1 f address_in [14] $end
+$var wire 1 g address_in [15] $end
+$var wire 1 h address_in [16] $end
+$var wire 1 i address_in [17] $end
+$var wire 1 j address_in [18] $end
+$var wire 1 k address_in [19] $end
+$var wire 1 l address_in [20] $end
+$var wire 1 m address_in [21] $end
+$var wire 1 n address_in [22] $end
+$var wire 1 o address_in [23] $end
+$var wire 1 p address_in [24] $end
+$var wire 1 q address_in [25] $end
+$var wire 1 r address_in [26] $end
+$var wire 1 s address_in [27] $end
+$var wire 1 t address_in [28] $end
+$var wire 1 u address_in [29] $end
+$var wire 1 v address_in [30] $end
+$var wire 1 w address_in [31] $end
+$var wire 1 x address_in [32] $end
+$var wire 1 y address_in [33] $end
+$var wire 1 z address_in [34] $end
+$var wire 1 { address_in [35] $end
+$var wire 1 | data_in [0] $end
+$var wire 1 } data_in [1] $end
+$var wire 1 ~ data_in [2] $end
+$var wire 1 !! data_in [3] $end
+$var wire 1 "! data_in [4] $end
+$var wire 1 #! data_in [5] $end
+$var wire 1 $! data_in [6] $end
+$var wire 1 %! data_in [7] $end
+$var wire 1 &! data_in [8] $end
+$var wire 1 '! data_in [9] $end
+$var wire 1 (! data_in [10] $end
+$var wire 1 )! data_in [11] $end
+$var wire 1 *! data_in [12] $end
+$var wire 1 +! data_in [13] $end
+$var wire 1 ,! data_in [14] $end
+$var wire 1 -! data_in [15] $end
+$var wire 1 .! data_in [16] $end
+$var wire 1 /! data_in [17] $end
+$var wire 1 0! data_in [18] $end
+$var wire 1 1! data_in [19] $end
+$var wire 1 2! data_in [20] $end
+$var wire 1 3! data_in [21] $end
+$var wire 1 4! data_in [22] $end
+$var wire 1 5! data_in [23] $end
+$var wire 1 6! req_arb [0] $end
+$var wire 1 7! req_arb [1] $end
+$var wire 1 8! req_arb [2] $end
+$var wire 1 9! gnt_arb [0] $end
+$var wire 1 :! gnt_arb [1] $end
+$var wire 1 ;! gnt_arb [2] $end
+
+$scope module cpu1 $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var wire 1 < A [7] $end
+$var wire 1 ; A [6] $end
+$var wire 1 : A [5] $end
+$var wire 1 9 A [4] $end
+$var wire 1 8 A [3] $end
+$var wire 1 7 A [2] $end
+$var wire 1 6 A [1] $end
+$var wire 1 5 A [0] $end
+$var wire 1 T B [7] $end
+$var wire 1 S B [6] $end
+$var wire 1 R B [5] $end
+$var wire 1 Q B [4] $end
+$var wire 1 P B [3] $end
+$var wire 1 O B [2] $end
+$var wire 1 N B [1] $end
+$var wire 1 M B [0] $end
+$var wire 1 W start_op $end
+$var wire 1 <! op_sel [3] $end
+$var wire 1 =! op_sel [2] $end
+$var wire 1 >! op_sel [1] $end
+$var wire 1 ?! op_sel [0] $end
+$var wire 1 { address_in [11] $end
+$var wire 1 z address_in [10] $end
+$var wire 1 y address_in [9] $end
+$var wire 1 x address_in [8] $end
+$var wire 1 w address_in [7] $end
+$var wire 1 v address_in [6] $end
+$var wire 1 u address_in [5] $end
+$var wire 1 t address_in [4] $end
+$var wire 1 s address_in [3] $end
+$var wire 1 r address_in [2] $end
+$var wire 1 q address_in [1] $end
+$var wire 1 p address_in [0] $end
+$var wire 1 5! data_in [7] $end
+$var wire 1 4! data_in [6] $end
+$var wire 1 3! data_in [5] $end
+$var wire 1 2! data_in [4] $end
+$var wire 1 1! data_in [3] $end
+$var wire 1 0! data_in [2] $end
+$var wire 1 /! data_in [1] $end
+$var wire 1 .! data_in [0] $end
+$var wire 1 ;! gnt_arb $end
+$var reg 16 @! result [15:0] $end
+$var reg 1 A! end_op $end
+$var reg 1 B! req_arb $end
+$var wire 1 C! rw $end
+$var wire 1 D! valid $end
+$var wire 1 E! hit $end
+$var wire 1 F! gnt $end
+$var wire 1 G! data_cache [7] $end
+$var wire 1 H! data_cache [6] $end
+$var wire 1 I! data_cache [5] $end
+$var wire 1 J! data_cache [4] $end
+$var wire 1 K! data_cache [3] $end
+$var wire 1 L! data_cache [2] $end
+$var wire 1 M! data_cache [1] $end
+$var wire 1 N! data_cache [0] $end
+$var wire 1 O! address_cache [11] $end
+$var wire 1 P! address_cache [10] $end
+$var wire 1 Q! address_cache [9] $end
+$var wire 1 R! address_cache [8] $end
+$var wire 1 S! address_cache [7] $end
+$var wire 1 T! address_cache [6] $end
+$var wire 1 U! address_cache [5] $end
+$var wire 1 V! address_cache [4] $end
+$var wire 1 W! address_cache [3] $end
+$var wire 1 X! address_cache [2] $end
+$var wire 1 Y! address_cache [1] $end
+$var wire 1 Z! address_cache [0] $end
+
+$scope module pro1 $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var wire 1 < A [7] $end
+$var wire 1 ; A [6] $end
+$var wire 1 : A [5] $end
+$var wire 1 9 A [4] $end
+$var wire 1 8 A [3] $end
+$var wire 1 7 A [2] $end
+$var wire 1 6 A [1] $end
+$var wire 1 5 A [0] $end
+$var wire 1 T B [7] $end
+$var wire 1 S B [6] $end
+$var wire 1 R B [5] $end
+$var wire 1 Q B [4] $end
+$var wire 1 P B [3] $end
+$var wire 1 O B [2] $end
+$var wire 1 N B [1] $end
+$var wire 1 M B [0] $end
+$var wire 1 W start_op $end
+$var wire 1 <! op_sel [3] $end
+$var wire 1 =! op_sel [2] $end
+$var wire 1 >! op_sel [1] $end
+$var wire 1 ?! op_sel [0] $end
+$var wire 1 { address_in [11] $end
+$var wire 1 z address_in [10] $end
+$var wire 1 y address_in [9] $end
+$var wire 1 x address_in [8] $end
+$var wire 1 w address_in [7] $end
+$var wire 1 v address_in [6] $end
+$var wire 1 u address_in [5] $end
+$var wire 1 t address_in [4] $end
+$var wire 1 s address_in [3] $end
+$var wire 1 r address_in [2] $end
+$var wire 1 q address_in [1] $end
+$var wire 1 p address_in [0] $end
+$var wire 1 5! data_in [7] $end
+$var wire 1 4! data_in [6] $end
+$var wire 1 3! data_in [5] $end
+$var wire 1 2! data_in [4] $end
+$var wire 1 1! data_in [3] $end
+$var wire 1 0! data_in [2] $end
+$var wire 1 /! data_in [1] $end
+$var wire 1 .! data_in [0] $end
+$var wire 1 E! hit $end
+$var wire 1 F! gnt $end
+$var wire 1 G! data_cache [7] $end
+$var wire 1 H! data_cache [6] $end
+$var wire 1 I! data_cache [5] $end
+$var wire 1 J! data_cache [4] $end
+$var wire 1 K! data_cache [3] $end
+$var wire 1 L! data_cache [2] $end
+$var wire 1 M! data_cache [1] $end
+$var wire 1 N! data_cache [0] $end
+$var reg 16 [! result [15:0] $end
+$var reg 1 \! rw $end
+$var reg 1 ]! end_op $end
+$var reg 1 ^! valid $end
+$var reg 12 _! address_cache [11:0] $end
+$var reg 1 `! start_load $end
+$var reg 1 a! end_load $end
+$var reg 1 b! start_store $end
+$var reg 1 c! end_store $end
+$var reg 1 d! start_alu $end
+$var reg 1 e! end_alu $end
+$var reg 1 f! valid_load $end
+$var reg 1 g! valid_store $end
+$var wire 1 h! result_alu [15] $end
+$var wire 1 i! result_alu [14] $end
+$var wire 1 j! result_alu [13] $end
+$var wire 1 k! result_alu [12] $end
+$var wire 1 l! result_alu [11] $end
+$var wire 1 m! result_alu [10] $end
+$var wire 1 n! result_alu [9] $end
+$var wire 1 o! result_alu [8] $end
+$var wire 1 p! result_alu [7] $end
+$var wire 1 q! result_alu [6] $end
+$var wire 1 r! result_alu [5] $end
+$var wire 1 s! result_alu [4] $end
+$var wire 1 t! result_alu [3] $end
+$var wire 1 u! result_alu [2] $end
+$var wire 1 v! result_alu [1] $end
+$var wire 1 w! result_alu [0] $end
+$var wire 1 x! result_load [15] $end
+$var wire 1 y! result_load [14] $end
+$var wire 1 z! result_load [13] $end
+$var wire 1 {! result_load [12] $end
+$var wire 1 |! result_load [11] $end
+$var wire 1 }! result_load [10] $end
+$var wire 1 ~! result_load [9] $end
+$var wire 1 !" result_load [8] $end
+$var wire 1 "" result_load [7] $end
+$var wire 1 #" result_load [6] $end
+$var wire 1 $" result_load [5] $end
+$var wire 1 %" result_load [4] $end
+$var wire 1 &" result_load [3] $end
+$var wire 1 '" result_load [2] $end
+$var wire 1 (" result_load [1] $end
+$var wire 1 )" result_load [0] $end
+$var wire 1 *" result_store [15] $end
+$var wire 1 +" result_store [14] $end
+$var wire 1 ," result_store [13] $end
+$var wire 1 -" result_store [12] $end
+$var wire 1 ." result_store [11] $end
+$var wire 1 /" result_store [10] $end
+$var wire 1 0" result_store [9] $end
+$var wire 1 1" result_store [8] $end
+$var wire 1 2" result_store [7] $end
+$var wire 1 3" result_store [6] $end
+$var wire 1 4" result_store [5] $end
+$var wire 1 5" result_store [4] $end
+$var wire 1 6" result_store [3] $end
+$var wire 1 7" result_store [2] $end
+$var wire 1 8" result_store [1] $end
+$var wire 1 9" result_store [0] $end
+$var reg 12 :" address_cache_load [11:0] $end
+$var reg 12 ;" address_cache_store [11:0] $end
+
+$scope module alu1 $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var wire 1 < A [7] $end
+$var wire 1 ; A [6] $end
+$var wire 1 : A [5] $end
+$var wire 1 9 A [4] $end
+$var wire 1 8 A [3] $end
+$var wire 1 7 A [2] $end
+$var wire 1 6 A [1] $end
+$var wire 1 5 A [0] $end
+$var wire 1 T B [7] $end
+$var wire 1 S B [6] $end
+$var wire 1 R B [5] $end
+$var wire 1 Q B [4] $end
+$var wire 1 P B [3] $end
+$var wire 1 O B [2] $end
+$var wire 1 N B [1] $end
+$var wire 1 M B [0] $end
+$var wire 1 <" start_alu $end
+$var wire 1 <! op_sel [3] $end
+$var wire 1 =! op_sel [2] $end
+$var wire 1 >! op_sel [1] $end
+$var wire 1 ?! op_sel [0] $end
+$var reg 16 =" result_alu [15:0] $end
+$var reg 1 >" end_alu $end
+$var reg 16 ?" mul_temp1 [15:0] $end
+$var reg 16 @" mul_temp2 [15:0] $end
+$var reg 16 A" sf1_temp1 [15:0] $end
+$var reg 16 B" sf1_temp2 [15:0] $end
+$var reg 16 C" sf2_temp1 [15:0] $end
+$var reg 16 D" sf2_temp2 [15:0] $end
+$var reg 16 E" sf3_temp1 [15:0] $end
+$var reg 16 F" sf3_temp2 [15:0] $end
+$var reg 16 G" sf4_temp1 [15:0] $end
+$var reg 16 H" sf4_temp2 [15:0] $end
+$var integer 32 I" counter $end
+$upscope $end
+
+$scope module load2 $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var wire 1 { address_in [11] $end
+$var wire 1 z address_in [10] $end
+$var wire 1 y address_in [9] $end
+$var wire 1 x address_in [8] $end
+$var wire 1 w address_in [7] $end
+$var wire 1 v address_in [6] $end
+$var wire 1 u address_in [5] $end
+$var wire 1 t address_in [4] $end
+$var wire 1 s address_in [3] $end
+$var wire 1 r address_in [2] $end
+$var wire 1 q address_in [1] $end
+$var wire 1 p address_in [0] $end
+$var wire 1 G! data_cache [7] $end
+$var wire 1 H! data_cache [6] $end
+$var wire 1 I! data_cache [5] $end
+$var wire 1 J! data_cache [4] $end
+$var wire 1 K! data_cache [3] $end
+$var wire 1 L! data_cache [2] $end
+$var wire 1 M! data_cache [1] $end
+$var wire 1 N! data_cache [0] $end
+$var wire 1 J" start_load $end
+$var wire 1 F! gnt $end
+$var wire 1 E! hit $end
+$var reg 1 K" end_load $end
+$var reg 1 L" valid_load $end
+$var reg 12 M" address_cache_load [11:0] $end
+$var reg 16 N" result_load [15:0] $end
+$var reg 1 O" complete $end
+$var reg 1 P" send_addr $end
+$var reg 2 Q" state [1:0] $end
+$var reg 2 R" next_state [1:0] $end
+$upscope $end
+
+$scope module store3 $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var wire 1 { address_in [11] $end
+$var wire 1 z address_in [10] $end
+$var wire 1 y address_in [9] $end
+$var wire 1 x address_in [8] $end
+$var wire 1 w address_in [7] $end
+$var wire 1 v address_in [6] $end
+$var wire 1 u address_in [5] $end
+$var wire 1 t address_in [4] $end
+$var wire 1 s address_in [3] $end
+$var wire 1 r address_in [2] $end
+$var wire 1 q address_in [1] $end
+$var wire 1 p address_in [0] $end
+$var wire 1 S" start_store $end
+$var wire 1 5! data_in [7] $end
+$var wire 1 4! data_in [6] $end
+$var wire 1 3! data_in [5] $end
+$var wire 1 2! data_in [4] $end
+$var wire 1 1! data_in [3] $end
+$var wire 1 0! data_in [2] $end
+$var wire 1 /! data_in [1] $end
+$var wire 1 .! data_in [0] $end
+$var wire 1 E! hit $end
+$var wire 1 F! gnt $end
+$var reg 12 T" address_cache_store [11:0] $end
+$var wire 1 G! data_cache [7] $end
+$var wire 1 H! data_cache [6] $end
+$var wire 1 I! data_cache [5] $end
+$var wire 1 J! data_cache [4] $end
+$var wire 1 K! data_cache [3] $end
+$var wire 1 L! data_cache [2] $end
+$var wire 1 M! data_cache [1] $end
+$var wire 1 N! data_cache [0] $end
+$var reg 16 U" result_store [15:0] $end
+$var reg 1 V" valid_store $end
+$var reg 1 W" end_store $end
+$var reg 1 X" complete $end
+$var reg 1 Y" send_addr $end
+$var reg 1 Z" send_data $end
+$var reg 2 [" state [1:0] $end
+$var reg 2 \" next_state [1:0] $end
+$upscope $end
+$upscope $end
+
+$scope module cache2 $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var wire 1 C! rw $end
+$var wire 1 D! valid $end
+$var wire 1 O! address_cache [11] $end
+$var wire 1 P! address_cache [10] $end
+$var wire 1 Q! address_cache [9] $end
+$var wire 1 R! address_cache [8] $end
+$var wire 1 S! address_cache [7] $end
+$var wire 1 T! address_cache [6] $end
+$var wire 1 U! address_cache [5] $end
+$var wire 1 V! address_cache [4] $end
+$var wire 1 W! address_cache [3] $end
+$var wire 1 X! address_cache [2] $end
+$var wire 1 Y! address_cache [1] $end
+$var wire 1 Z! address_cache [0] $end
+$var wire 1 ;! gnt_arb $end
+$var wire 1 G! data_cache [7] $end
+$var wire 1 H! data_cache [6] $end
+$var wire 1 I! data_cache [5] $end
+$var wire 1 J! data_cache [4] $end
+$var wire 1 K! data_cache [3] $end
+$var wire 1 L! data_cache [2] $end
+$var wire 1 M! data_cache [1] $end
+$var wire 1 N! data_cache [0] $end
+$var reg 1 ]" hit $end
+$var reg 1 ^" cpu_gnt $end
+$var reg 1 _" req_arb $end
+$var reg 12 `" temp_addr [11:0] $end
+$var reg 1 a" addr_storing $end
+$var reg 1 b" send_data $end
+$var reg 1 c" receive_data $end
+$var reg 1 d" hit_ack $end
+$var reg 1 e" cpu_gnt_ack $end
+$var reg 1 f" req_arb_ack $end
+$var reg 3 g" state [2:0] $end
+$var reg 3 h" next_state [2:0] $end
+$upscope $end
+$upscope $end
+
+$scope module cpu2 $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var wire 1 4 A [7] $end
+$var wire 1 3 A [6] $end
+$var wire 1 2 A [5] $end
+$var wire 1 1 A [4] $end
+$var wire 1 0 A [3] $end
+$var wire 1 / A [2] $end
+$var wire 1 . A [1] $end
+$var wire 1 - A [0] $end
+$var wire 1 L B [7] $end
+$var wire 1 K B [6] $end
+$var wire 1 J B [5] $end
+$var wire 1 I B [4] $end
+$var wire 1 H B [3] $end
+$var wire 1 G B [2] $end
+$var wire 1 F B [1] $end
+$var wire 1 E B [0] $end
+$var wire 1 V start_op $end
+$var wire 1 i" op_sel [3] $end
+$var wire 1 j" op_sel [2] $end
+$var wire 1 k" op_sel [1] $end
+$var wire 1 l" op_sel [0] $end
+$var wire 1 o address_in [11] $end
+$var wire 1 n address_in [10] $end
+$var wire 1 m address_in [9] $end
+$var wire 1 l address_in [8] $end
+$var wire 1 k address_in [7] $end
+$var wire 1 j address_in [6] $end
+$var wire 1 i address_in [5] $end
+$var wire 1 h address_in [4] $end
+$var wire 1 g address_in [3] $end
+$var wire 1 f address_in [2] $end
+$var wire 1 e address_in [1] $end
+$var wire 1 d address_in [0] $end
+$var wire 1 -! data_in [7] $end
+$var wire 1 ,! data_in [6] $end
+$var wire 1 +! data_in [5] $end
+$var wire 1 *! data_in [4] $end
+$var wire 1 )! data_in [3] $end
+$var wire 1 (! data_in [2] $end
+$var wire 1 '! data_in [1] $end
+$var wire 1 &! data_in [0] $end
+$var wire 1 :! gnt_arb $end
+$var reg 16 m" result [15:0] $end
+$var reg 1 n" end_op $end
+$var reg 1 o" req_arb $end
+$var wire 1 p" rw $end
+$var wire 1 q" valid $end
+$var wire 1 r" hit $end
+$var wire 1 s" gnt $end
+$var wire 1 t" data_cache [7] $end
+$var wire 1 u" data_cache [6] $end
+$var wire 1 v" data_cache [5] $end
+$var wire 1 w" data_cache [4] $end
+$var wire 1 x" data_cache [3] $end
+$var wire 1 y" data_cache [2] $end
+$var wire 1 z" data_cache [1] $end
+$var wire 1 {" data_cache [0] $end
+$var wire 1 |" address_cache [11] $end
+$var wire 1 }" address_cache [10] $end
+$var wire 1 ~" address_cache [9] $end
+$var wire 1 !# address_cache [8] $end
+$var wire 1 "# address_cache [7] $end
+$var wire 1 ## address_cache [6] $end
+$var wire 1 $# address_cache [5] $end
+$var wire 1 %# address_cache [4] $end
+$var wire 1 &# address_cache [3] $end
+$var wire 1 '# address_cache [2] $end
+$var wire 1 (# address_cache [1] $end
+$var wire 1 )# address_cache [0] $end
+
+$scope module pro1 $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var wire 1 4 A [7] $end
+$var wire 1 3 A [6] $end
+$var wire 1 2 A [5] $end
+$var wire 1 1 A [4] $end
+$var wire 1 0 A [3] $end
+$var wire 1 / A [2] $end
+$var wire 1 . A [1] $end
+$var wire 1 - A [0] $end
+$var wire 1 L B [7] $end
+$var wire 1 K B [6] $end
+$var wire 1 J B [5] $end
+$var wire 1 I B [4] $end
+$var wire 1 H B [3] $end
+$var wire 1 G B [2] $end
+$var wire 1 F B [1] $end
+$var wire 1 E B [0] $end
+$var wire 1 V start_op $end
+$var wire 1 i" op_sel [3] $end
+$var wire 1 j" op_sel [2] $end
+$var wire 1 k" op_sel [1] $end
+$var wire 1 l" op_sel [0] $end
+$var wire 1 o address_in [11] $end
+$var wire 1 n address_in [10] $end
+$var wire 1 m address_in [9] $end
+$var wire 1 l address_in [8] $end
+$var wire 1 k address_in [7] $end
+$var wire 1 j address_in [6] $end
+$var wire 1 i address_in [5] $end
+$var wire 1 h address_in [4] $end
+$var wire 1 g address_in [3] $end
+$var wire 1 f address_in [2] $end
+$var wire 1 e address_in [1] $end
+$var wire 1 d address_in [0] $end
+$var wire 1 -! data_in [7] $end
+$var wire 1 ,! data_in [6] $end
+$var wire 1 +! data_in [5] $end
+$var wire 1 *! data_in [4] $end
+$var wire 1 )! data_in [3] $end
+$var wire 1 (! data_in [2] $end
+$var wire 1 '! data_in [1] $end
+$var wire 1 &! data_in [0] $end
+$var wire 1 r" hit $end
+$var wire 1 s" gnt $end
+$var wire 1 t" data_cache [7] $end
+$var wire 1 u" data_cache [6] $end
+$var wire 1 v" data_cache [5] $end
+$var wire 1 w" data_cache [4] $end
+$var wire 1 x" data_cache [3] $end
+$var wire 1 y" data_cache [2] $end
+$var wire 1 z" data_cache [1] $end
+$var wire 1 {" data_cache [0] $end
+$var reg 16 *# result [15:0] $end
+$var reg 1 +# rw $end
+$var reg 1 ,# end_op $end
+$var reg 1 -# valid $end
+$var reg 12 .# address_cache [11:0] $end
+$var reg 1 /# start_load $end
+$var reg 1 0# end_load $end
+$var reg 1 1# start_store $end
+$var reg 1 2# end_store $end
+$var reg 1 3# start_alu $end
+$var reg 1 4# end_alu $end
+$var reg 1 5# valid_load $end
+$var reg 1 6# valid_store $end
+$var wire 1 7# result_alu [15] $end
+$var wire 1 8# result_alu [14] $end
+$var wire 1 9# result_alu [13] $end
+$var wire 1 :# result_alu [12] $end
+$var wire 1 ;# result_alu [11] $end
+$var wire 1 <# result_alu [10] $end
+$var wire 1 =# result_alu [9] $end
+$var wire 1 ># result_alu [8] $end
+$var wire 1 ?# result_alu [7] $end
+$var wire 1 @# result_alu [6] $end
+$var wire 1 A# result_alu [5] $end
+$var wire 1 B# result_alu [4] $end
+$var wire 1 C# result_alu [3] $end
+$var wire 1 D# result_alu [2] $end
+$var wire 1 E# result_alu [1] $end
+$var wire 1 F# result_alu [0] $end
+$var wire 1 G# result_load [15] $end
+$var wire 1 H# result_load [14] $end
+$var wire 1 I# result_load [13] $end
+$var wire 1 J# result_load [12] $end
+$var wire 1 K# result_load [11] $end
+$var wire 1 L# result_load [10] $end
+$var wire 1 M# result_load [9] $end
+$var wire 1 N# result_load [8] $end
+$var wire 1 O# result_load [7] $end
+$var wire 1 P# result_load [6] $end
+$var wire 1 Q# result_load [5] $end
+$var wire 1 R# result_load [4] $end
+$var wire 1 S# result_load [3] $end
+$var wire 1 T# result_load [2] $end
+$var wire 1 U# result_load [1] $end
+$var wire 1 V# result_load [0] $end
+$var wire 1 W# result_store [15] $end
+$var wire 1 X# result_store [14] $end
+$var wire 1 Y# result_store [13] $end
+$var wire 1 Z# result_store [12] $end
+$var wire 1 [# result_store [11] $end
+$var wire 1 \# result_store [10] $end
+$var wire 1 ]# result_store [9] $end
+$var wire 1 ^# result_store [8] $end
+$var wire 1 _# result_store [7] $end
+$var wire 1 `# result_store [6] $end
+$var wire 1 a# result_store [5] $end
+$var wire 1 b# result_store [4] $end
+$var wire 1 c# result_store [3] $end
+$var wire 1 d# result_store [2] $end
+$var wire 1 e# result_store [1] $end
+$var wire 1 f# result_store [0] $end
+$var reg 12 g# address_cache_load [11:0] $end
+$var reg 12 h# address_cache_store [11:0] $end
+
+$scope module alu1 $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var wire 1 4 A [7] $end
+$var wire 1 3 A [6] $end
+$var wire 1 2 A [5] $end
+$var wire 1 1 A [4] $end
+$var wire 1 0 A [3] $end
+$var wire 1 / A [2] $end
+$var wire 1 . A [1] $end
+$var wire 1 - A [0] $end
+$var wire 1 L B [7] $end
+$var wire 1 K B [6] $end
+$var wire 1 J B [5] $end
+$var wire 1 I B [4] $end
+$var wire 1 H B [3] $end
+$var wire 1 G B [2] $end
+$var wire 1 F B [1] $end
+$var wire 1 E B [0] $end
+$var wire 1 i# start_alu $end
+$var wire 1 i" op_sel [3] $end
+$var wire 1 j" op_sel [2] $end
+$var wire 1 k" op_sel [1] $end
+$var wire 1 l" op_sel [0] $end
+$var reg 16 j# result_alu [15:0] $end
+$var reg 1 k# end_alu $end
+$var reg 16 l# mul_temp1 [15:0] $end
+$var reg 16 m# mul_temp2 [15:0] $end
+$var reg 16 n# sf1_temp1 [15:0] $end
+$var reg 16 o# sf1_temp2 [15:0] $end
+$var reg 16 p# sf2_temp1 [15:0] $end
+$var reg 16 q# sf2_temp2 [15:0] $end
+$var reg 16 r# sf3_temp1 [15:0] $end
+$var reg 16 s# sf3_temp2 [15:0] $end
+$var reg 16 t# sf4_temp1 [15:0] $end
+$var reg 16 u# sf4_temp2 [15:0] $end
+$var integer 32 v# counter $end
+$upscope $end
+
+$scope module load2 $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var wire 1 o address_in [11] $end
+$var wire 1 n address_in [10] $end
+$var wire 1 m address_in [9] $end
+$var wire 1 l address_in [8] $end
+$var wire 1 k address_in [7] $end
+$var wire 1 j address_in [6] $end
+$var wire 1 i address_in [5] $end
+$var wire 1 h address_in [4] $end
+$var wire 1 g address_in [3] $end
+$var wire 1 f address_in [2] $end
+$var wire 1 e address_in [1] $end
+$var wire 1 d address_in [0] $end
+$var wire 1 t" data_cache [7] $end
+$var wire 1 u" data_cache [6] $end
+$var wire 1 v" data_cache [5] $end
+$var wire 1 w" data_cache [4] $end
+$var wire 1 x" data_cache [3] $end
+$var wire 1 y" data_cache [2] $end
+$var wire 1 z" data_cache [1] $end
+$var wire 1 {" data_cache [0] $end
+$var wire 1 w# start_load $end
+$var wire 1 s" gnt $end
+$var wire 1 r" hit $end
+$var reg 1 x# end_load $end
+$var reg 1 y# valid_load $end
+$var reg 12 z# address_cache_load [11:0] $end
+$var reg 16 {# result_load [15:0] $end
+$var reg 1 |# complete $end
+$var reg 1 }# send_addr $end
+$var reg 2 ~# state [1:0] $end
+$var reg 2 !$ next_state [1:0] $end
+$upscope $end
+
+$scope module store3 $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var wire 1 o address_in [11] $end
+$var wire 1 n address_in [10] $end
+$var wire 1 m address_in [9] $end
+$var wire 1 l address_in [8] $end
+$var wire 1 k address_in [7] $end
+$var wire 1 j address_in [6] $end
+$var wire 1 i address_in [5] $end
+$var wire 1 h address_in [4] $end
+$var wire 1 g address_in [3] $end
+$var wire 1 f address_in [2] $end
+$var wire 1 e address_in [1] $end
+$var wire 1 d address_in [0] $end
+$var wire 1 "$ start_store $end
+$var wire 1 -! data_in [7] $end
+$var wire 1 ,! data_in [6] $end
+$var wire 1 +! data_in [5] $end
+$var wire 1 *! data_in [4] $end
+$var wire 1 )! data_in [3] $end
+$var wire 1 (! data_in [2] $end
+$var wire 1 '! data_in [1] $end
+$var wire 1 &! data_in [0] $end
+$var wire 1 r" hit $end
+$var wire 1 s" gnt $end
+$var reg 12 #$ address_cache_store [11:0] $end
+$var wire 1 t" data_cache [7] $end
+$var wire 1 u" data_cache [6] $end
+$var wire 1 v" data_cache [5] $end
+$var wire 1 w" data_cache [4] $end
+$var wire 1 x" data_cache [3] $end
+$var wire 1 y" data_cache [2] $end
+$var wire 1 z" data_cache [1] $end
+$var wire 1 {" data_cache [0] $end
+$var reg 16 $$ result_store [15:0] $end
+$var reg 1 %$ valid_store $end
+$var reg 1 &$ end_store $end
+$var reg 1 '$ complete $end
+$var reg 1 ($ send_addr $end
+$var reg 1 )$ send_data $end
+$var reg 2 *$ state [1:0] $end
+$var reg 2 +$ next_state [1:0] $end
+$upscope $end
+$upscope $end
+
+$scope module cache2 $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var wire 1 p" rw $end
+$var wire 1 q" valid $end
+$var wire 1 |" address_cache [11] $end
+$var wire 1 }" address_cache [10] $end
+$var wire 1 ~" address_cache [9] $end
+$var wire 1 !# address_cache [8] $end
+$var wire 1 "# address_cache [7] $end
+$var wire 1 ## address_cache [6] $end
+$var wire 1 $# address_cache [5] $end
+$var wire 1 %# address_cache [4] $end
+$var wire 1 &# address_cache [3] $end
+$var wire 1 '# address_cache [2] $end
+$var wire 1 (# address_cache [1] $end
+$var wire 1 )# address_cache [0] $end
+$var wire 1 :! gnt_arb $end
+$var wire 1 t" data_cache [7] $end
+$var wire 1 u" data_cache [6] $end
+$var wire 1 v" data_cache [5] $end
+$var wire 1 w" data_cache [4] $end
+$var wire 1 x" data_cache [3] $end
+$var wire 1 y" data_cache [2] $end
+$var wire 1 z" data_cache [1] $end
+$var wire 1 {" data_cache [0] $end
+$var reg 1 ,$ hit $end
+$var reg 1 -$ cpu_gnt $end
+$var reg 1 .$ req_arb $end
+$var reg 12 /$ temp_addr [11:0] $end
+$var reg 1 0$ addr_storing $end
+$var reg 1 1$ send_data $end
+$var reg 1 2$ receive_data $end
+$var reg 1 3$ hit_ack $end
+$var reg 1 4$ cpu_gnt_ack $end
+$var reg 1 5$ req_arb_ack $end
+$var reg 3 6$ state [2:0] $end
+$var reg 3 7$ next_state [2:0] $end
+$upscope $end
+$upscope $end
+
+$scope module cpu3 $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var wire 1 , A [7] $end
+$var wire 1 + A [6] $end
+$var wire 1 * A [5] $end
+$var wire 1 ) A [4] $end
+$var wire 1 ( A [3] $end
+$var wire 1 ' A [2] $end
+$var wire 1 & A [1] $end
+$var wire 1 % A [0] $end
+$var wire 1 D B [7] $end
+$var wire 1 C B [6] $end
+$var wire 1 B B [5] $end
+$var wire 1 A B [4] $end
+$var wire 1 @ B [3] $end
+$var wire 1 ? B [2] $end
+$var wire 1 > B [1] $end
+$var wire 1 = B [0] $end
+$var wire 1 U start_op $end
+$var wire 1 8$ op_sel [3] $end
+$var wire 1 9$ op_sel [2] $end
+$var wire 1 :$ op_sel [1] $end
+$var wire 1 ;$ op_sel [0] $end
+$var wire 1 c address_in [11] $end
+$var wire 1 b address_in [10] $end
+$var wire 1 a address_in [9] $end
+$var wire 1 ` address_in [8] $end
+$var wire 1 _ address_in [7] $end
+$var wire 1 ^ address_in [6] $end
+$var wire 1 ] address_in [5] $end
+$var wire 1 \ address_in [4] $end
+$var wire 1 [ address_in [3] $end
+$var wire 1 Z address_in [2] $end
+$var wire 1 Y address_in [1] $end
+$var wire 1 X address_in [0] $end
+$var wire 1 %! data_in [7] $end
+$var wire 1 $! data_in [6] $end
+$var wire 1 #! data_in [5] $end
+$var wire 1 "! data_in [4] $end
+$var wire 1 !! data_in [3] $end
+$var wire 1 ~ data_in [2] $end
+$var wire 1 } data_in [1] $end
+$var wire 1 | data_in [0] $end
+$var wire 1 9! gnt_arb $end
+$var reg 16 <$ result [15:0] $end
+$var reg 1 =$ end_op $end
+$var reg 1 >$ req_arb $end
+$var wire 1 ?$ rw $end
+$var wire 1 @$ valid $end
+$var wire 1 A$ hit $end
+$var wire 1 B$ gnt $end
+$var wire 1 C$ data_cache [7] $end
+$var wire 1 D$ data_cache [6] $end
+$var wire 1 E$ data_cache [5] $end
+$var wire 1 F$ data_cache [4] $end
+$var wire 1 G$ data_cache [3] $end
+$var wire 1 H$ data_cache [2] $end
+$var wire 1 I$ data_cache [1] $end
+$var wire 1 J$ data_cache [0] $end
+$var wire 1 K$ address_cache [11] $end
+$var wire 1 L$ address_cache [10] $end
+$var wire 1 M$ address_cache [9] $end
+$var wire 1 N$ address_cache [8] $end
+$var wire 1 O$ address_cache [7] $end
+$var wire 1 P$ address_cache [6] $end
+$var wire 1 Q$ address_cache [5] $end
+$var wire 1 R$ address_cache [4] $end
+$var wire 1 S$ address_cache [3] $end
+$var wire 1 T$ address_cache [2] $end
+$var wire 1 U$ address_cache [1] $end
+$var wire 1 V$ address_cache [0] $end
+
+$scope module pro1 $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var wire 1 , A [7] $end
+$var wire 1 + A [6] $end
+$var wire 1 * A [5] $end
+$var wire 1 ) A [4] $end
+$var wire 1 ( A [3] $end
+$var wire 1 ' A [2] $end
+$var wire 1 & A [1] $end
+$var wire 1 % A [0] $end
+$var wire 1 D B [7] $end
+$var wire 1 C B [6] $end
+$var wire 1 B B [5] $end
+$var wire 1 A B [4] $end
+$var wire 1 @ B [3] $end
+$var wire 1 ? B [2] $end
+$var wire 1 > B [1] $end
+$var wire 1 = B [0] $end
+$var wire 1 U start_op $end
+$var wire 1 8$ op_sel [3] $end
+$var wire 1 9$ op_sel [2] $end
+$var wire 1 :$ op_sel [1] $end
+$var wire 1 ;$ op_sel [0] $end
+$var wire 1 c address_in [11] $end
+$var wire 1 b address_in [10] $end
+$var wire 1 a address_in [9] $end
+$var wire 1 ` address_in [8] $end
+$var wire 1 _ address_in [7] $end
+$var wire 1 ^ address_in [6] $end
+$var wire 1 ] address_in [5] $end
+$var wire 1 \ address_in [4] $end
+$var wire 1 [ address_in [3] $end
+$var wire 1 Z address_in [2] $end
+$var wire 1 Y address_in [1] $end
+$var wire 1 X address_in [0] $end
+$var wire 1 %! data_in [7] $end
+$var wire 1 $! data_in [6] $end
+$var wire 1 #! data_in [5] $end
+$var wire 1 "! data_in [4] $end
+$var wire 1 !! data_in [3] $end
+$var wire 1 ~ data_in [2] $end
+$var wire 1 } data_in [1] $end
+$var wire 1 | data_in [0] $end
+$var wire 1 A$ hit $end
+$var wire 1 B$ gnt $end
+$var wire 1 C$ data_cache [7] $end
+$var wire 1 D$ data_cache [6] $end
+$var wire 1 E$ data_cache [5] $end
+$var wire 1 F$ data_cache [4] $end
+$var wire 1 G$ data_cache [3] $end
+$var wire 1 H$ data_cache [2] $end
+$var wire 1 I$ data_cache [1] $end
+$var wire 1 J$ data_cache [0] $end
+$var reg 16 W$ result [15:0] $end
+$var reg 1 X$ rw $end
+$var reg 1 Y$ end_op $end
+$var reg 1 Z$ valid $end
+$var reg 12 [$ address_cache [11:0] $end
+$var reg 1 \$ start_load $end
+$var reg 1 ]$ end_load $end
+$var reg 1 ^$ start_store $end
+$var reg 1 _$ end_store $end
+$var reg 1 `$ start_alu $end
+$var reg 1 a$ end_alu $end
+$var reg 1 b$ valid_load $end
+$var reg 1 c$ valid_store $end
+$var wire 1 d$ result_alu [15] $end
+$var wire 1 e$ result_alu [14] $end
+$var wire 1 f$ result_alu [13] $end
+$var wire 1 g$ result_alu [12] $end
+$var wire 1 h$ result_alu [11] $end
+$var wire 1 i$ result_alu [10] $end
+$var wire 1 j$ result_alu [9] $end
+$var wire 1 k$ result_alu [8] $end
+$var wire 1 l$ result_alu [7] $end
+$var wire 1 m$ result_alu [6] $end
+$var wire 1 n$ result_alu [5] $end
+$var wire 1 o$ result_alu [4] $end
+$var wire 1 p$ result_alu [3] $end
+$var wire 1 q$ result_alu [2] $end
+$var wire 1 r$ result_alu [1] $end
+$var wire 1 s$ result_alu [0] $end
+$var wire 1 t$ result_load [15] $end
+$var wire 1 u$ result_load [14] $end
+$var wire 1 v$ result_load [13] $end
+$var wire 1 w$ result_load [12] $end
+$var wire 1 x$ result_load [11] $end
+$var wire 1 y$ result_load [10] $end
+$var wire 1 z$ result_load [9] $end
+$var wire 1 {$ result_load [8] $end
+$var wire 1 |$ result_load [7] $end
+$var wire 1 }$ result_load [6] $end
+$var wire 1 ~$ result_load [5] $end
+$var wire 1 !% result_load [4] $end
+$var wire 1 "% result_load [3] $end
+$var wire 1 #% result_load [2] $end
+$var wire 1 $% result_load [1] $end
+$var wire 1 %% result_load [0] $end
+$var wire 1 &% result_store [15] $end
+$var wire 1 '% result_store [14] $end
+$var wire 1 (% result_store [13] $end
+$var wire 1 )% result_store [12] $end
+$var wire 1 *% result_store [11] $end
+$var wire 1 +% result_store [10] $end
+$var wire 1 ,% result_store [9] $end
+$var wire 1 -% result_store [8] $end
+$var wire 1 .% result_store [7] $end
+$var wire 1 /% result_store [6] $end
+$var wire 1 0% result_store [5] $end
+$var wire 1 1% result_store [4] $end
+$var wire 1 2% result_store [3] $end
+$var wire 1 3% result_store [2] $end
+$var wire 1 4% result_store [1] $end
+$var wire 1 5% result_store [0] $end
+$var reg 12 6% address_cache_load [11:0] $end
+$var reg 12 7% address_cache_store [11:0] $end
+
+$scope module alu1 $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var wire 1 , A [7] $end
+$var wire 1 + A [6] $end
+$var wire 1 * A [5] $end
+$var wire 1 ) A [4] $end
+$var wire 1 ( A [3] $end
+$var wire 1 ' A [2] $end
+$var wire 1 & A [1] $end
+$var wire 1 % A [0] $end
+$var wire 1 D B [7] $end
+$var wire 1 C B [6] $end
+$var wire 1 B B [5] $end
+$var wire 1 A B [4] $end
+$var wire 1 @ B [3] $end
+$var wire 1 ? B [2] $end
+$var wire 1 > B [1] $end
+$var wire 1 = B [0] $end
+$var wire 1 8% start_alu $end
+$var wire 1 8$ op_sel [3] $end
+$var wire 1 9$ op_sel [2] $end
+$var wire 1 :$ op_sel [1] $end
+$var wire 1 ;$ op_sel [0] $end
+$var reg 16 9% result_alu [15:0] $end
+$var reg 1 :% end_alu $end
+$var reg 16 ;% mul_temp1 [15:0] $end
+$var reg 16 <% mul_temp2 [15:0] $end
+$var reg 16 =% sf1_temp1 [15:0] $end
+$var reg 16 >% sf1_temp2 [15:0] $end
+$var reg 16 ?% sf2_temp1 [15:0] $end
+$var reg 16 @% sf2_temp2 [15:0] $end
+$var reg 16 A% sf3_temp1 [15:0] $end
+$var reg 16 B% sf3_temp2 [15:0] $end
+$var reg 16 C% sf4_temp1 [15:0] $end
+$var reg 16 D% sf4_temp2 [15:0] $end
+$var integer 32 E% counter $end
+$upscope $end
+
+$scope module load2 $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var wire 1 c address_in [11] $end
+$var wire 1 b address_in [10] $end
+$var wire 1 a address_in [9] $end
+$var wire 1 ` address_in [8] $end
+$var wire 1 _ address_in [7] $end
+$var wire 1 ^ address_in [6] $end
+$var wire 1 ] address_in [5] $end
+$var wire 1 \ address_in [4] $end
+$var wire 1 [ address_in [3] $end
+$var wire 1 Z address_in [2] $end
+$var wire 1 Y address_in [1] $end
+$var wire 1 X address_in [0] $end
+$var wire 1 C$ data_cache [7] $end
+$var wire 1 D$ data_cache [6] $end
+$var wire 1 E$ data_cache [5] $end
+$var wire 1 F$ data_cache [4] $end
+$var wire 1 G$ data_cache [3] $end
+$var wire 1 H$ data_cache [2] $end
+$var wire 1 I$ data_cache [1] $end
+$var wire 1 J$ data_cache [0] $end
+$var wire 1 F% start_load $end
+$var wire 1 B$ gnt $end
+$var wire 1 A$ hit $end
+$var reg 1 G% end_load $end
+$var reg 1 H% valid_load $end
+$var reg 12 I% address_cache_load [11:0] $end
+$var reg 16 J% result_load [15:0] $end
+$var reg 1 K% complete $end
+$var reg 1 L% send_addr $end
+$var reg 2 M% state [1:0] $end
+$var reg 2 N% next_state [1:0] $end
+$upscope $end
+
+$scope module store3 $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var wire 1 c address_in [11] $end
+$var wire 1 b address_in [10] $end
+$var wire 1 a address_in [9] $end
+$var wire 1 ` address_in [8] $end
+$var wire 1 _ address_in [7] $end
+$var wire 1 ^ address_in [6] $end
+$var wire 1 ] address_in [5] $end
+$var wire 1 \ address_in [4] $end
+$var wire 1 [ address_in [3] $end
+$var wire 1 Z address_in [2] $end
+$var wire 1 Y address_in [1] $end
+$var wire 1 X address_in [0] $end
+$var wire 1 O% start_store $end
+$var wire 1 %! data_in [7] $end
+$var wire 1 $! data_in [6] $end
+$var wire 1 #! data_in [5] $end
+$var wire 1 "! data_in [4] $end
+$var wire 1 !! data_in [3] $end
+$var wire 1 ~ data_in [2] $end
+$var wire 1 } data_in [1] $end
+$var wire 1 | data_in [0] $end
+$var wire 1 A$ hit $end
+$var wire 1 B$ gnt $end
+$var reg 12 P% address_cache_store [11:0] $end
+$var wire 1 C$ data_cache [7] $end
+$var wire 1 D$ data_cache [6] $end
+$var wire 1 E$ data_cache [5] $end
+$var wire 1 F$ data_cache [4] $end
+$var wire 1 G$ data_cache [3] $end
+$var wire 1 H$ data_cache [2] $end
+$var wire 1 I$ data_cache [1] $end
+$var wire 1 J$ data_cache [0] $end
+$var reg 16 Q% result_store [15:0] $end
+$var reg 1 R% valid_store $end
+$var reg 1 S% end_store $end
+$var reg 1 T% complete $end
+$var reg 1 U% send_addr $end
+$var reg 1 V% send_data $end
+$var reg 2 W% state [1:0] $end
+$var reg 2 X% next_state [1:0] $end
+$upscope $end
+$upscope $end
+
+$scope module cache2 $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var wire 1 ?$ rw $end
+$var wire 1 @$ valid $end
+$var wire 1 K$ address_cache [11] $end
+$var wire 1 L$ address_cache [10] $end
+$var wire 1 M$ address_cache [9] $end
+$var wire 1 N$ address_cache [8] $end
+$var wire 1 O$ address_cache [7] $end
+$var wire 1 P$ address_cache [6] $end
+$var wire 1 Q$ address_cache [5] $end
+$var wire 1 R$ address_cache [4] $end
+$var wire 1 S$ address_cache [3] $end
+$var wire 1 T$ address_cache [2] $end
+$var wire 1 U$ address_cache [1] $end
+$var wire 1 V$ address_cache [0] $end
+$var wire 1 9! gnt_arb $end
+$var wire 1 C$ data_cache [7] $end
+$var wire 1 D$ data_cache [6] $end
+$var wire 1 E$ data_cache [5] $end
+$var wire 1 F$ data_cache [4] $end
+$var wire 1 G$ data_cache [3] $end
+$var wire 1 H$ data_cache [2] $end
+$var wire 1 I$ data_cache [1] $end
+$var wire 1 J$ data_cache [0] $end
+$var reg 1 Y% hit $end
+$var reg 1 Z% cpu_gnt $end
+$var reg 1 [% req_arb $end
+$var reg 12 \% temp_addr [11:0] $end
+$var reg 1 ]% addr_storing $end
+$var reg 1 ^% send_data $end
+$var reg 1 _% receive_data $end
+$var reg 1 `% hit_ack $end
+$var reg 1 a% cpu_gnt_ack $end
+$var reg 1 b% req_arb_ack $end
+$var reg 3 c% state [2:0] $end
+$var reg 3 d% next_state [2:0] $end
+$upscope $end
+$upscope $end
+
+$scope module arb $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var wire 1 6! req_arb [0] $end
+$var wire 1 7! req_arb [1] $end
+$var wire 1 8! req_arb [2] $end
+$upscope $end
+$upscope $end
+$upscope $end
+
+$scope begin pkg $end
+$upscope $end
+
+$scope begin tb_sv_unit $end
+$upscope $end
+
+$scope begin std $end
+$upscope $end
+
+$scope begin top_sv_unit $end
+$upscope $end
+
+$scope begin cpu_sv_unit $end
+$upscope $end
+
+$scope begin processor_sv_unit $end
+$upscope $end
+
+$scope begin alu_sv_unit $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+1"
+b0 @!
+0A!
+0B!
+b0 [!
+x\!
+0]!
+0^!
+b0 _!
+x`!
+0a!
+xb!
+0c!
+xd!
+0e!
+0f!
+0g!
+b0 :"
+b0 ;"
+b0 ="
+0>"
+b0 ?"
+b0 @"
+b0 A"
+b0 B"
+b0 C"
+b0 D"
+b0 E"
+b0 F"
+b0 G"
+b0 H"
+0K"
+0L"
+b0 M"
+b0 N"
+0O"
+0P"
+b0 Q"
+b0 R"
+b0 T"
+b0 U"
+0V"
+0W"
+0X"
+0Y"
+xZ"
+b0 ["
+b0 \"
+0]"
+0^"
+0_"
+bz `"
+0a"
+xb"
+xc"
+0d"
+0e"
+0f"
+b0 g"
+b0 h"
+b0 m"
+0n"
+0o"
+b0 *#
+x+#
+0,#
+0-#
+b0 .#
+x/#
+00#
+x1#
+02#
+x3#
+04#
+05#
+06#
+b0 g#
+b0 h#
+b0 j#
+0k#
+b0 l#
+b0 m#
+b0 n#
+b0 o#
+b0 p#
+b0 q#
+b0 r#
+b0 s#
+b0 t#
+b0 u#
+0x#
+0y#
+b0 z#
+b0 {#
+0|#
+0}#
+b0 ~#
+b0 !$
+b0 #$
+b0 $$
+0%$
+0&$
+0'$
+0($
+x)$
+b0 *$
+b0 +$
+0,$
+0-$
+0.$
+bz /$
+00$
+x1$
+x2$
+03$
+04$
+05$
+b0 6$
+b0 7$
+b0 <$
+0=$
+0>$
+b0 W$
+xX$
+0Y$
+0Z$
+b0 [$
+x\$
+0]$
+x^$
+0_$
+x`$
+0a$
+0b$
+0c$
+b0 6%
+b0 7%
+b0 9%
+0:%
+b0 ;%
+b0 <%
+b0 =%
+b0 >%
+b0 ?%
+b0 @%
+b0 A%
+b0 B%
+b0 C%
+b0 D%
+0G%
+0H%
+b0 I%
+b0 J%
+0K%
+0L%
+b0 M%
+b0 N%
+b0 P%
+b0 Q%
+0R%
+0S%
+0T%
+0U%
+xV%
+b0 W%
+b0 X%
+0Y%
+0Z%
+0[%
+bz \%
+0]%
+x^%
+x_%
+0`%
+0a%
+0b%
+b0 c%
+b0 d%
+b0 I"
+b0 v#
+b0 E%
+06!
+07!
+08!
+09!
+0:!
+0;!
+xC!
+0D!
+0E!
+0F!
+xN!
+xM!
+xL!
+xK!
+xJ!
+xI!
+xH!
+xG!
+0Z!
+0Y!
+0X!
+0W!
+0V!
+0U!
+0T!
+0S!
+0R!
+0Q!
+0P!
+0O!
+0w!
+0v!
+0u!
+0t!
+0s!
+0r!
+0q!
+0p!
+0o!
+0n!
+0m!
+0l!
+0k!
+0j!
+0i!
+0h!
+0)"
+0("
+0'"
+0&"
+0%"
+0$"
+0#"
+0""
+0!"
+0~!
+0}!
+0|!
+0{!
+0z!
+0y!
+0x!
+09"
+08"
+07"
+06"
+05"
+04"
+03"
+02"
+01"
+00"
+0/"
+0."
+0-"
+0,"
+0+"
+0*"
+xp"
+0q"
+0r"
+0s"
+x{"
+xz"
+xy"
+xx"
+xw"
+xv"
+xu"
+xt"
+0)#
+0(#
+0'#
+0&#
+0%#
+0$#
+0##
+0"#
+0!#
+0~"
+0}"
+0|"
+0F#
+0E#
+0D#
+0C#
+0B#
+0A#
+0@#
+0?#
+0>#
+0=#
+0<#
+0;#
+0:#
+09#
+08#
+07#
+0V#
+0U#
+0T#
+0S#
+0R#
+0Q#
+0P#
+0O#
+0N#
+0M#
+0L#
+0K#
+0J#
+0I#
+0H#
+0G#
+0f#
+0e#
+0d#
+0c#
+0b#
+0a#
+0`#
+0_#
+0^#
+0]#
+0\#
+0[#
+0Z#
+0Y#
+0X#
+0W#
+x?$
+0@$
+0A$
+0B$
+xJ$
+xI$
+xH$
+xG$
+xF$
+xE$
+xD$
+xC$
+0V$
+0U$
+0T$
+0S$
+0R$
+0Q$
+0P$
+0O$
+0N$
+0M$
+0L$
+0K$
+0s$
+0r$
+0q$
+0p$
+0o$
+0n$
+0m$
+0l$
+0k$
+0j$
+0i$
+0h$
+0g$
+0f$
+0e$
+0d$
+0%%
+0$%
+0#%
+0"%
+0!%
+0~$
+0}$
+0|$
+0{$
+0z$
+0y$
+0x$
+0w$
+0v$
+0u$
+0t$
+05%
+04%
+03%
+02%
+01%
+00%
+0/%
+0.%
+0-%
+0,%
+0+%
+0*%
+0)%
+0(%
+0'%
+0&%
+x|
+x}
+x~
+x!!
+x"!
+x#!
+x$!
+x%!
+x&!
+x'!
+x(!
+x)!
+x*!
+x+!
+x,!
+x-!
+x.!
+x/!
+x0!
+x1!
+x2!
+x3!
+x4!
+x5!
+xX
+xY
+xZ
+x[
+x\
+x]
+x^
+x_
+x`
+xa
+xb
+xc
+xd
+xe
+xf
+xg
+xh
+xi
+xj
+xk
+xl
+xm
+xn
+xo
+xp
+xq
+xr
+xs
+xt
+xu
+xv
+xw
+xx
+xy
+xz
+x{
+xU
+xV
+xW
+x=
+x>
+x?
+x@
+xA
+xB
+xC
+xD
+xE
+xF
+xG
+xH
+xI
+xJ
+xK
+xL
+xM
+xN
+xO
+xP
+xQ
+xR
+xS
+xT
+x%
+x&
+x'
+x(
+x)
+x*
+x+
+x,
+x-
+x.
+x/
+x0
+x1
+x2
+x3
+x4
+x5
+x6
+x7
+x8
+x9
+x:
+x;
+x<
+1$
+1#
+x;$
+x:$
+x9$
+x8$
+xl"
+xk"
+xj"
+xi"
+x?!
+x>!
+x=!
+x<!
+xS"
+xJ"
+x<"
+x"$
+xw#
+xi#
+xO%
+xF%
+x8%
+$end
+#5
+0!
+0#
+#10
+1!
+1#
+#15
+0!
+0#
+#20
+0"
+1!
+0$
+1W
+1M
+0N
+1O
+0P
+0Q
+0R
+0S
+0T
+15
+06
+07
+08
+09
+0:
+0;
+0<
+1#
+1?!
+0>!
+0=!
+0<!
+0`!
+0b!
+1d!
+1<"
+0J"
+0S"
+b110 ="
+1>"
+1e!
+1v!
+1u!
+b110 [!
+1]!
+1A!
+b110 @!
+#25
+0!
+0#
+#30
+1!
+1#
+#35
+0!
+0#
+#40
+1!
+1#
+#45
+0!
+0#
+#50
+1!
+1#
+#55
+0!
+0#
+#60
+1!
+1#
+#65
+0!
+0#
+#70
+1!
+0W
+0d!
+0<"
+1#
+0>"
+0e!
+0]!
+0A!
+#75
+0!
+0#
+#80
+1!
+1#
+#85
+0!
+0#
+#90
+1!
+1#
+#95
+0!
+0#
+#100
+1!
+1#
+#105
+0!
+0#
+#110
+1!
+1#
+#115
+0!
+0#
+#120
+1!
+1#
+#125
+0!
+0#
+#130
+1!
+1#
+#135
+0!
+0#
+#140
+1!
+1#
+#145
+0!
+0#
+#150
+1!
+1#
+#155
+0!
+0#
+#160
+1!
+1#
+#165
+0!
+0#
+#170
+1!
+1#
+#175
+0!
+0#
+#180
+1!
+1#
+#185
+0!
+0#
+#190
+1!
+1#
+#195
+0!
+0#
+#200
+1!
+1#
+#205
+0!
+0#
+#210
+1!
+1#
+#215
+0!
+0#
+#220
+1!
+1#
+#225
+0!
+0#
+#230
+1!
+1#
+#235
+0!
+0#
+#240
+1!
+1#
+#245
+0!
+0#
+#250
+1!
+1#
+#255
+0!
+0#
+#260
+1!
+1#
+#265
+0!
+0#
+#270
+1!
+1#
+#275
+0!
+0#
+#280
+1!
+1#
+#285
+0!
+0#
+#290
+1!
+1#
+#295
+0!
+0#
+#300
+1!
+1#
+#305
+0!
+0#
+#310
+1!
+1#
+#315
+0!
+0#
+#320
+1!
+1#
+#325
+0!
+0#
+#330
+1!
+1#
+#335
+0!
+0#
+#340
+1!
+1#
+#345
+0!
+0#
+#350
+1!
+1#
+#355
+0!
+0#
+#360
+1!
+1#
+#365
+0!
+0#
+#370
+1!
+1#
+#375
+0!
+0#
+#380
+1!
+1#
+#385
+0!
+0#
+#390
+1!
+1#
+#395
+0!
+0#
+#400
+1!
+1#
+#405
+0!
+0#
+#410
+1!
+1#
+#415
+0!
+0#
+#420
+1!
+1#
+#425
+0!
+0#
+#430
+1!
+1#
+#435
+0!
+0#
+#440
+1!
+1#
+#445
+0!
+0#
+#450
+1!
+1#
+#455
+0!
+0#
+#460
+1!
+1#
+#465
+0!
+0#
+#470
+1!
+1#
+#475
+0!
+0#
+#480
+1!
+1#
+#485
+0!
+0#
+#490
+1!
+1#
+#495
+0!
+0#
+#500
+1!
+1#
+#505
+0!
+0#
+#510
+1!
+1#
+#515
+0!
+0#
+#520
+1!
+1#
+#525
+0!
+0#
+#530
+1!
+1#
+#535
+0!
+0#
+#540
+1!
+1#
+#545
+0!
+0#
+#550
+1!
+1#
+#555
+0!
+0#
+#560
+1!
+1#
+#565
+0!
+0#
